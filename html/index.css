@@ -1,0 +1,127 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+
+#container {
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid darkgrey !important;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: fixed;
+	bottom: 125px;
+	right: 50px;
+	width: 350px;
+	height: 700px;
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px darkgrey;
+}
+
+#phoneScreen {
+	margin-top: 20px;
+	border: 1px solid black !important;
+	width: 320px;
+	height: 600px;
+	position: relative;
+	background-image: url('./assets/phoneBackground.jpg');
+	border-radius: 2%;
+}
+
+.topPhoneScreen {
+	padding: 3px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: rgb(211, 211, 211, 0.4); 
+}
+
+#phoneApps {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 75px;
+	position: absolute;
+	bottom: 0;
+	font-size: 3em;
+	border-top: 1px solid darkgrey;
+	background-color: rgb(211, 211, 211, 0.4); 
+}
+
+form {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 75px;
+	width: 100%;
+}
+
+#input {
+	width: 80%;
+	min-height: 40px;
+	text-align: center;
+	font-style: italic;
+}
+
+button#submit {
+	width: 20%;
+	background-color:rgb(29, 161, 242);
+	color: white;
+}
+
+.phoneExit {
+	height: 100px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#exitPhone {
+	font-size: 3em;
+	background-color: white;
+	border: none;
+	border-radius: 25%;
+}
+
+.fa-stop-circle:active {
+	font-size: 1.15em;
+}
+
+#exitPhone:focus {
+	outline: 2px solid rgb(128, 128, 128, 0.4);
+}
+
+
+
+/*APP BUTTON COLOR STYLES */
+a{
+	text-decoration: none;
+}
+
+a:active {
+	font-size: 1.25em;
+}
+
+a:focus {
+	outline: 2px solid rgb(128, 128, 128, 0.4);
+}
+
+.fa-phone-square,
+ .fa-comments {
+	color: #01e65d;
+}
+
+.fa-twitter-square {
+	color: rgb(29, 161, 242);
+}
+
+.fa-cogs {
+	color: darkgrey;
+}
