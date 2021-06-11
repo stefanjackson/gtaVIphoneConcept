@@ -1,6 +1,6 @@
 # GTA V In-game "Iphone" Concept 
 
-In-game "Iphone" concept for GTA V role-play servers with Chat capability.  
+In-game "Iphone" concept for GTA V (video game) role-play servers with Chat capability.  
 
 The goal of customized role-play servers is to provide players with the most immersive, unique in-game experiences that may not be provided by the original game. With that in mind
 I am trying to simmulate a real-life phone experience by providing the utilities typically found on an actual Iphone.
