@@ -6,13 +6,13 @@ The goal of customized role-play servers is to provide players with the most imm
 I am trying to simmulate a real-life phone experience by providing the utilities typically found on an actual Iphone.
 
 
-Features in its current state include :  
+## Features in its current state include :  
 -"text" capability which sends messages to the server-wide chat.  
 -100 character limit (can change to any limit) to prevent spam messages in chat.  
 -functioning "back/exit" button to close the phone which mimics the older iPhone buttons.  
 
 
-Future Improvements :  
+## Future Improvements :  
 -functioning "apps" on the phone.  
 -"Twitter" style app to tweet and send photos in game accross the whole server.  
 -direct message capability - a true "texting" experience to message players directly.  
